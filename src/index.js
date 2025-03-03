@@ -13,7 +13,7 @@ const app = (function() {
         "Contact Us": "#"
     };
 
-    const dropDown1 = dropDownManager.createDropDown(1, links);
+    const dropDown1 = dropDownManager.createDropDown(links, 1);
     header.appendChild(dropDown1.DocNode);
 
     dropDownBtn.addEventListener("click", function() {
