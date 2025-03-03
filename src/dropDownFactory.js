@@ -10,7 +10,7 @@ const dropDownFactory = (function() {
         return link;
     };
 
-    let createDropDown = function(id, links, dropDownClass="dropdown", hideClass="hidden") {
+    let createDropDown = function(links, id, dropDownClass="dropdown", hideClass="hidden") {
         const dropDownDiv = document.createElement("div");
         dropDownDiv.classList.add(`${dropDownClass}-${id}`);
         dropDownDiv.dataset.id = id;
