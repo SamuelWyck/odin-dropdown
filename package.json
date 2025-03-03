@@ -1,7 +1,7 @@
 {
   "name": "dropdown",
   "version": "1.0.0",
-  "description": "JS dropdown menu",
+  "description": "A simple dropdown menu",
   "homepage": "https://github.com/SamuelWyck/odin-dropdown#readme",
   "bugs": {
     "url": "https://github.com/SamuelWyck/odin-dropdown/issues"
