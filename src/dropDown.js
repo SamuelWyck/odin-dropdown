@@ -1,8 +1,8 @@
 
 
-function DropDown(element, hiddenClassName, id) {
+function DropDown(element, hideClassName, id=null) {
     this.DocNode = element;
-    this.hideClass = hiddenClassName;
+    this.hideClass = hideClassName;
     this.id = id;
 
 

@@ -1,7 +1,6 @@
 import DropDown from "./dropDown.js";
 
-const dropDownManager = (function() {
-
+const dropDownFactory = (function() {
 
     let createLink = function(text, url, id, dropDownClass) {
         const link = document.createElement("a");
@@ -24,10 +23,15 @@ const dropDownManager = (function() {
         return new DropDown(dropDownDiv, hideClass, id);
     };
 
+    let getDropDown = function(element, hideClass, id=null) {
+        return new DropDown(element, hideClass, id);
+    };
+
     return {
         "createDropDown": createDropDown,
+        "getDropDown": getDropDown,
     };
 })();
 
 
-export default dropDownManager;
+export default dropDownFactory;
